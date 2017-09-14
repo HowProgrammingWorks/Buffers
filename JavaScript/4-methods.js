@@ -7,6 +7,6 @@ if (buffer.includes('Marcus')) {
 }
 
 const k = buffer.indexOf('Aurelius');
-console.log(`Index of "Marcus" is ${k}`);
+console.log(`Index of "Aurelius" is ${k}`);
 
-console.log(`Slice 3-7 "${buffer.slice(3, 6)}"`);
+console.log(`Slice 3-5 "${buffer.slice(3, 6)}"`);

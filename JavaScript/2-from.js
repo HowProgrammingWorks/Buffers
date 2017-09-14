@@ -9,5 +9,4 @@ const b2 = Buffer.from('Marcus Aurelius (Марк Аврелий)');
 console.log(b2.toString('hex'));
 console.log(b2.toString('base64'));
 console.log(b2.toString('utf8'));
-console.log(b2.toString('latin1'));
 console.log(b2.toString('binary'));
