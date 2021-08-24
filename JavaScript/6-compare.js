@@ -12,8 +12,8 @@ console.dir({
 
 const bufs = [buffer1, buffer2];
 
-bufs.sort(Buffer.compare).map(b => b.toString());
+bufs.sort(Buffer.compare).map((b) => b.toString());
 
-const strs = bufs.map(b => b.toString());
+const strs = bufs.map((b) => b.toString());
 
 console.dir({ buffer1, buffer2, sorted: bufs, strs });
