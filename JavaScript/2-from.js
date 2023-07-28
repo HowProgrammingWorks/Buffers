@@ -6,7 +6,8 @@ console.log(b1);
 
 const b2 = Buffer.from('Marcus Aurelius (Марк Аврелий)');
 
-console.log(b2.toString('hex'));
-console.log(b2.toString('base64'));
-console.log(b2.toString('utf8'));
-console.log(b2.toString('binary'));
+console.log(`hex:    ${b2.toString('hex')}`);
+console.log(`base64: ${b2.toString('base64')}`);
+console.log(`utf-8:  ${b2.toString('utf8')}`);
+console.log(`binary: ${b2.toString('binary')}`);
+console.log(`ascii:  ${b2.toString('ascii')}`);
