@@ -4,7 +4,9 @@ const b1 = Buffer.from([1, 2, 3, 4, 5, 6]);
 
 console.log(b1);
 
+console.log('Marcus Aurelius (Марк Аврелий)'.length);
 const b2 = Buffer.from('Marcus Aurelius (Марк Аврелий)');
+console.log(b2.length);
 
 console.log(b2.toString('hex'));
 console.log(b2.toString('base64'));

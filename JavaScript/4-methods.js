@@ -10,4 +10,3 @@ const k = buffer.indexOf('Aurelius');
 console.log(`Index of "Aurelius" is ${k}`);
 
 console.log(`Slice 3-5 "${buffer.slice(3, 6)}"`);
-
